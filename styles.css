@@ -1,0 +1,90 @@
+/* Rese e configuração global */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(88, 79, 146); /* Cor de fundo */
+    text-align: center; /*alinhamento do texto*/
+    padding: 20px;
+    color: hartreuse;
+    line-height: 1.6;
+}
+
+    header{
+        background-color: rgb(136, 179, 215);
+        color: azure;
+        padding: 15px 0;
+    }
+
+    header .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    nav ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
+    nav ul li a{
+        color: white;
+        text-decoration;
+    }
+
+    nav ul li a
+    /*Estilo do container de texto*/
+    .text-container {
+    background-color: rgb(141, 141, 210);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+     margin: 20px auto; }
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo do titulo */
+h1{
+    color: rgb(132, 40, 203);
+}
+
+/* Estilo do parágrafo */
+p{
+    color: black;
+    font-size: 18px;
+}
+
+/* Estilo do container da imagem */
+.image-container{
+    margin-top: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

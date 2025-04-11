@@ -1,0 +1,98 @@
+/* Reset e configuração Global */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+body {
+font-family: Arial, sans-serif; /* Fonte escolhida*/ 
+background-color: rgba(138, 27, 248, 0.956); /* Cor de fundo */
+text-align: center; /*Alinhamento do texto */
+padding: 20px;
+color:rgba(1, 10, 14, 0.907);
+line-height: 1.6;
+}
+
+header{
+    background-color: rgba(84, 13, 122, 0.496);
+    color: rgba(255, 255, 255, 0.821);
+    padding: 15px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color:rgb(168, 118, 235);
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo do container de texto */
+.text-container{
+    flex: 1;
+    padding:20px;
+}
+
+/* Estilo do título */
+.text-container h1{
+    font-size: 32px;
+    color: rgb(9, 0, 128);
+    margin-bottom: 20px;
+}
+
+/* Estilo do parágrafo */
+.text-container p{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do container da imagem */
+.image-container{
+    flex:1;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
